@@ -2,7 +2,7 @@
 
 The prototype is a fullyConnected (times 4 edge types) neuralnet of 8 tapes with random edges. The edges dont change in this version.
 
-In each tape there are 4 vectors, sets of edges from all the nodes. Each of these is weightedSummed then sigmoid then scaled into a range. MOVE controls direction and speed. WRITEVALUE is the target value to decay the center toward. WRITEDECAY is how much to decay toward that target. STDDEV defines a bellcurve to read and write at. Decay is actually bellcurve height times WRITEDECAY.
+In each tape there are 4 vectors, sets of edges from all the tapes (variable size bellcurve view of its center). Each of these is weightedSummed then sigmoid then scaled into a range. MOVE controls direction and speed. WRITEVALUE is the target value to decay the center toward. WRITEDECAY is how much to decay toward that target. STDDEV defines a bellcurve to read and write at. Decay is actually bellcurve height times WRITEDECAY.
 
 Youtube channel: https://www.youtube.com/channel/UCzz4QpV748wTJRFXWzxlhig
 
