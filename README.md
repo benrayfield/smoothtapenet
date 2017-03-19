@@ -6,10 +6,6 @@ In each tape there are 4 vectors, sets of edges from all the nodes. Each of thes
 
 Youtube channel: https://www.youtube.com/channel/UCzz4QpV748wTJRFXWzxlhig
 
-Download then doubleclick this file to run the interactive prototype seen in the video: https://github.com/benrayfield/smoothtapenet/releases/download/v0.1/SmoothTapeNet_0.1_doubleClickToRun_or_unzipToGetSource.jar
-
-Code: https://github.com/benrayfield/smoothtapenet
-
 Hold mouse button to pull the tape's center toward mouse height with bellcurve density left/right. Mouse left/right slides a tape. The 2 lines show 1 stdDev. If you draw random curves in some of the nodes, you will see it create nonlinear curves and movements back and forth. It normally stabilizes on a single direction or vibrating back and forth per node, since its a random neuralnet. It will look like a heartbeat sometimes. For longer turing completeness it has to be trained.
 
 I'm looking for help designing a learning algorithm for time series. This is a new kind of AI thats well defined how it runs but not how to adjust the weights. This could be an AGI.
